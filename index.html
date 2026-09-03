@@ -1,145 +1,303 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Taxi Xanh - Dịch vụ taxi chuyên nghiệp, phục vụ 24/7 tại Nam Định.">
-  <title>Taxi Xanh - Taxi Nam Định 24/7</title>
+  <meta name="description"
+    content="Taxi Xanh Nam Định - dịch vụ taxi điện, taxi 4 chỗ, 7 chỗ và đưa đón sân bay phục vụ 24/7.">
+  <title>Taxi Xanh Nam Định | Gọi 0964 849 095</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header class="site-header">
-  <div class="container nav">
-    <a class="logo" href="#home"><span class="logo-mark">🚕</span><span>Taxi Xanh</span></a>
-    <button class="menu-btn" id="menuBtn" aria-label="Mở menu">☰</button>
-    <nav id="mainNav">
-      <a href="#home">Trang chủ</a>
-      <a href="#services">Dịch vụ</a>
-      <a href="#about">Giới thiệu</a>
-      <a href="#pricing">Bảng giá</a>
-      <a href="#faq">FAQ</a>
-      <a class="nav-call" href="tel:+84964849095">☎ Gọi ngay</a>
-    </nav>
-  </div>
-</header>
+  <header class="header" id="header">
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <span class="brand-logo">🚕</span>
+        <span><b>Taxi Xanh</b><small>Nam Định</small></span>
+      </a>
 
-<main>
-<section class="hero" id="home">
-  <div class="container hero-grid">
-    <div class="hero-copy">
-      <div class="eyebrow">TAXI 24/7 • NHANH • AN TOÀN • MINH BẠCH</div>
-      <h1>Đi đâu cũng được.<br><span>Gọi taxi là có.</span></h1>
-      <p>Dịch vụ taxi chuyên nghiệp, phục vụ tận nơi tại Nam Định. Đặt xe nhanh, tài xế thân thiện, giá cả rõ ràng.</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="tel:+84964849095">☎ 0964 849 095</a>
-        <a class="btn btn-outline" href="#pricing">Xem bảng giá →</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Mở menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Trang chủ</a>
+        <a href="#services">Dịch vụ Taxi</a>
+        <a href="#pricing">Bảng giá cước</a>
+        <a href="#contact">Liên hệ Tổng đài</a>
+        <a class="nav-phone" href="tel:+84964849095">☎ <span>0964 849 095</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">TAXI XANH SM NAM ĐỊNH</div>
+          <h1>Đi đâu cũng được.<br><span>Gọi taxi là có.</span></h1>
+          <p class="hero-desc">
+            Dịch vụ taxi chuyên nghiệp, phục vụ tận nơi tại Nam Định.
+            Đặt xe nhanh, tài xế thân thiện, giá cả rõ ràng.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="tel:+84964849095">☎ 0964 849 095</a>
+            <a class="btn btn-outline" href="#pricing">Xem bảng giá →</a>
+          </div>
+
+          <div class="trust">
+            <span>✓ Phục vụ 24/7</span>
+            <span>✓ Đón tận nơi</span>
+            <span>✓ Giá minh bạch</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-circle"></div>
+          <div class="hero-image-card">
+            <div class="car-image">
+              <div class="car-fallback">🚕</div>
+            </div>
+            <div class="car-caption">
+              <div>
+                <small>XE CÓ SẴN</small>
+                <strong>Gọi 0964 849 095</strong>
+              </div>
+              <a href="tel:+84964849095" class="round-call">☎</a>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-rating">
+            <span class="badge-icon">★</span>
+            <div><b>4.9/5</b><small>Khách hàng đánh giá</small></div>
+          </div>
+
+          <div class="floating-badge badge-online">
+            <span class="badge-icon">🚗</span>
+            <div><b>Xe có sẵn</b><small>Gọi 0964 849 095</small></div>
+          </div>
+        </div>
       </div>
-      <div class="hero-trust"><span>✓ Phục vụ 24/7</span><span>✓ Đón tận nơi</span><span>✓ Giá minh bạch</span></div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <div><strong>24/7</strong><span>Luôn sẵn sàng</span></div>
+        <div><strong>9</strong><span>Khu vực phục vụ</span></div>
+        <div><strong>10K+</strong><span>Lượt khách</span></div>
+        <div><strong>4.9/5</strong><span>Đánh giá</span></div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="center-heading">
+          <div class="eyebrow">DỊCH VỤ TAXI XANH NAM ĐỊNH</div>
+          <h2>Phủ sóng <span>toàn tỉnh</span></h2>
+          <p>
+            Chúng tôi tự hào cung cấp dịch vụ Taxi Xanh SM Nam Định tại
+            <b>TP Nam Định, Xuân Trường, Giao Thủy, Hải Hậu, Vụ Bản, Ý Yên,
+              Trực Ninh, Nam Trực, Mỹ Lộc.</b>
+          </p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon blue">🚕</div>
+            <h3>Taxi Điện Nam Định 4 Chỗ</h3>
+            <p>Dịch vụ taxi điện Nam Định sử dụng xe hiện đại, sạch sẽ và thân thiện môi trường.</p>
+            <a href="tel:+84964849095">Gọi đặt xe →</a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon purple">⚡</div>
+            <h3>Taxi VinFast Nam Định 7 Chỗ</h3>
+            <p>Đặt xe taxi VinFast Nam Định 7 chỗ, phù hợp gia đình và nhóm khách đông người.</p>
+            <a href="tel:+84964849095">Gọi đặt xe →</a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon green">📍</div>
+            <h3>Phủ Sóng 9 Huyện/Thành Phố</h3>
+            <p>Phục vụ tại TP Nam Định, Xuân Trường, Giao Thủy, Hải Hậu, Vụ Bản, Ý Yên và các khu vực lân cận.</p>
+            <a href="tel:+84964849095">Xem khu vực →</a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon orange">✈️</div>
+            <h3>Đưa Đón Sân Bay</h3>
+            <p>Nhận đặt xe trước cho các chuyến đi sân bay, đi tỉnh và hành trình dài.</p>
+            <a href="tel:+84964849095">Đặt xe trước →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <div class="about-car">🚕</div>
+          <div class="about-tag"><b>24/7</b><small>Sẵn sàng phục vụ</small></div>
+        </div>
+
+        <div class="about-copy">
+          <div class="eyebrow">TẠI SAO CHỌN CHÚNG TÔI?</div>
+          <h2>Một chuyến đi tốt bắt đầu từ <span>một chiếc taxi tốt.</span></h2>
+          <p>
+            Chúng tôi tập trung vào trải nghiệm thực tế của khách hàng:
+            xe sạch, tài xế lịch sự, đón đúng điểm và báo giá rõ ràng.
+          </p>
+
+          <div class="checks">
+            <div><b>✓</b><span><strong>Tài xế chuyên nghiệp</strong><small>Thân thiện, lịch sự và giàu kinh
+                  nghiệm.</small></span></div>
+            <div><b>✓</b><span><strong>Xe sạch, hiện đại</strong><small>Ưu tiên trải nghiệm và an toàn của hành
+                  khách.</small></span></div>
+            <div><b>✓</b><span><strong>Hỗ trợ 24/7</strong><small>Gọi tổng đài bất cứ khi nào bạn cần.</small></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing" id="pricing">
+      <div class="container">
+        <div class="center-heading">
+          <div class="eyebrow">BẢNG GIÁ CƯỚC</div>
+          <h2>Giá rõ ràng, <span>không mập mờ.</span></h2>
+          <p>Mức giá dưới đây mang tính tham khảo. Hãy gọi tổng đài để được báo giá chính xác.</p>
+        </div>
+
+        <div class="price-grid">
+          <article class="price-card">
+            <div class="price-car">🚕</div>
+            <h3>Taxi 4 chỗ</h3>
+            <strong>Từ 12.000đ/km</strong>
+            <p>Phù hợp đi lại hàng ngày trong thành phố và khu vực lân cận.</p>
+            <a href="tel:+84964849095">Gọi báo giá →</a>
+          </article>
+
+          <article class="price-card featured">
+            <span class="popular">ĐƯỢC CHỌN NHIỀU</span>
+            <div class="price-car">🚕</div>
+            <h3>Taxi 7 chỗ</h3>
+            <strong>Từ 14.000đ/km</strong>
+            <p>Không gian rộng rãi, phù hợp gia đình và nhóm khách.</p>
+            <a href="tel:+84964849095">Gọi báo giá →</a>
+          </article>
+
+          <article class="price-card">
+            <div class="price-car">✈️</div>
+            <h3>Đường dài / Sân bay</h3>
+            <strong>Liên hệ</strong>
+            <p>Đặt trước xe cho hành trình liên tỉnh và đưa đón sân bay.</p>
+            <a href="tel:+84964849095">Gọi báo giá →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews">
+      <div class="container">
+        <div class="center-heading">
+          <div class="eyebrow">KHÁCH HÀNG NÓI GÌ?</div>
+          <h2>Đi một lần, <span>nhớ một lần.</span></h2>
+        </div>
+
+        <div class="review-grid">
+          <article class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>“Tài xế nhiệt tình, xe sạch, đón đúng giờ. Mình đi sân bay lúc sáng sớm mà vẫn rất yên tâm.”</p><b>— Minh
+              Anh</b>
+          </article>
+          <article class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>“Giá hợp lý, gọi là có xe khá nhanh. Mình thường xuyên dùng cho các chuyến đi trong tỉnh.”</p><b>— Hoàng
+              Nam</b>
+          </article>
+          <article class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>“Dịch vụ ổn, tài xế lịch sự. Đặc biệt thích việc báo giá trước khi đi.”</p><b>— Thu Hà</b>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="container faq-grid">
+        <div>
+          <div class="eyebrow">FAQ</div>
+          <h2>Câu hỏi <span>thường gặp.</span></h2>
+          <p>Nếu vẫn còn thắc mắc, cứ gọi trực tiếp tổng đài. Chúng tôi sẽ hỗ trợ.</p>
+          <a class="btn btn-primary" href="tel:+84964849095">☎ Gọi tổng đài</a>
+        </div>
+
+        <div class="faq-list">
+          <details open>
+            <summary>Làm sao để đặt taxi?</summary>
+            <p>Chỉ cần gọi số 0964 849 095 và cung cấp điểm đón, điểm đến. Nhân viên sẽ hỗ trợ điều xe.</p>
+          </details>
+          <details>
+            <summary>Có nhận đặt xe trước không?</summary>
+            <p>Có. Bạn nên đặt trước nếu cần đi sân bay hoặc đi vào khung giờ cao điểm.</p>
+          </details>
+          <details>
+            <summary>Giá taxi được tính như thế nào?</summary>
+            <p>Giá phụ thuộc loại xe, quãng đường và loại hành trình. Hãy gọi để được báo giá cụ thể.</p>
+          </details>
+          <details>
+            <summary>Có phục vụ ban đêm không?</summary>
+            <p>Có. Dịch vụ hoạt động 24/7.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="container cta-inner">
+        <div>
+          <div class="eyebrow">CẦN XE NGAY?</div>
+          <h2>Gọi một cuộc.<br><span>Chúng tôi lo phần còn lại.</span></h2>
+        </div>
+        <a class="cta-phone" href="tel:+84964849095">
+          <span>☎</span>
+          <div><small>TỔNG ĐÀI TAXI</small><strong>0964 849 095</strong></div>
+          <b>→</b>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#home"><span class="brand-logo">🚕</span><span><b>Taxi Xanh</b><small>Nam
+              Định</small></span></a>
+        <p>Dịch vụ taxi chuyên nghiệp, phục vụ 24/7 tại Nam Định.</p>
+      </div>
+      <div>
+        <h4>Liên kết</h4><a href="#home">Trang chủ</a><a href="#services">Dịch vụ Taxi</a><a href="#pricing">Bảng giá
+          cước</a>
+      </div>
+      <div>
+        <h4>Liên hệ</h4><a href="tel:+84964849095">☎ 0964 849 095</a><span>📍 Nam Định, Việt Nam</span>
+      </div>
     </div>
-    <div class="hero-card">
-      <div class="car-emoji">🚕</div>
-      <div class="hero-card-title">Đặt xe trong vài giây</div>
-      <div class="hero-card-text">Gọi trực tiếp để được điều xe gần bạn nhất.</div>
-      <a class="btn btn-dark" href="tel:+84964849095">GỌI TAXI NGAY</a>
-    </div>
-  </div>
-</section>
+    <div class="copyright">© 2026 Taxi Xanh Nam Định. All rights reserved.</div>
+  </footer>
 
-<section class="stats">
-  <div class="container stats-grid">
-    <div><strong>24/7</strong><span>Luôn sẵn sàng</span></div>
-    <div><strong>5+</strong><span>Năm kinh nghiệm</span></div>
-    <div><strong>10K+</strong><span>Khách hàng</span></div>
-    <div><strong>4.9/5</strong><span>Đánh giá</span></div>
-  </div>
-</section>
+  <a class="floating-call" href="tel:+84964849095">☎ <span>Gọi taxi</span></a>
 
-<section class="section" id="services">
-  <div class="container">
-    <div class="section-head"><div class="eyebrow">DỊCH VỤ</div><h2>Một cuộc gọi, <span>mọi nhu cầu.</span></h2><p>Từ chuyến đi hàng ngày đến những hành trình dài, chúng tôi luôn sẵn sàng.</p></div>
-    <div class="cards">
-      <article class="card"><div class="icon">🚕</div><h3>Taxi nội thành</h3><p>Đón trả tận nơi, nhanh chóng và thuận tiện trong thành phố.</p></article>
-      <article class="card"><div class="icon">🛣️</div><h3>Taxi đường dài</h3><p>Đi tỉnh, liên tỉnh với mức giá hợp lý và tài xế giàu kinh nghiệm.</p></article>
-      <article class="card"><div class="icon">✈️</div><h3>Đưa đón sân bay</h3><p>Đặt trước xe, đúng giờ, hỗ trợ hành lý và đưa đón hai chiều.</p></article>
-      <article class="card"><div class="icon">🏥</div><h3>Đưa đón bệnh viện</h3><p>Hỗ trợ đưa đón người bệnh, người cao tuổi và người nhà.</p></article>
-    </div>
-  </div>
-</section>
-
-<section class="section section-soft" id="about">
-  <div class="container about-grid">
-    <div class="about-photo"><div class="big-car">🚕</div></div>
-    <div>
-      <div class="eyebrow">VỀ CHÚNG TÔI</div>
-      <h2>Chuyến đi tốt bắt đầu từ <span>một chiếc taxi tốt.</span></h2>
-      <p>Chúng tôi tập trung vào trải nghiệm thực tế của khách hàng: xe sạch, tài xế lịch sự, đón đúng điểm và báo giá rõ ràng.</p>
-      <ul class="check-list">
-        <li>✓ Tài xế được tuyển chọn và đào tạo</li>
-        <li>✓ Xe được kiểm tra, bảo dưỡng định kỳ</li>
-        <li>✓ Hỗ trợ khách hàng 24 giờ mỗi ngày</li>
-        <li>✓ Ưu tiên an toàn trên mọi hành trình</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="pricing">
-  <div class="container">
-    <div class="section-head"><div class="eyebrow">BẢNG GIÁ</div><h2>Giá rõ ràng, <span>không mập mờ.</span></h2><p>Mức giá tham khảo. Giá thực tế có thể thay đổi theo quãng đường và thời điểm.</p></div>
-    <div class="price-table">
-      <div class="price-row price-head"><span>Loại dịch vụ</span><span>Giá tham khảo</span></div>
-      <div class="price-row"><span>Taxi 4 chỗ</span><strong>Từ 12.000đ/km</strong></div>
-      <div class="price-row"><span>Taxi 7 chỗ</span><strong>Từ 14.000đ/km</strong></div>
-      <div class="price-row"><span>Đưa đón sân bay</span><strong>Liên hệ báo giá</strong></div>
-      <div class="price-row"><span>Taxi đường dài</span><strong>Thỏa thuận</strong></div>
-    </div>
-    <div class="price-note">* Liên hệ trực tiếp để được báo giá chính xác cho chuyến đi của bạn.</div>
-  </div>
-</section>
-
-<section class="section section-dark">
-  <div class="container">
-    <div class="section-head light"><div class="eyebrow">KHÁCH HÀNG NÓI GÌ</div><h2>Đi một lần, <span>nhớ một lần.</span></h2></div>
-    <div class="reviews">
-      <article class="review"><div class="stars">★★★★★</div><p>“Tài xế nhiệt tình, xe sạch, đón đúng giờ. Mình đi sân bay lúc sáng sớm mà vẫn rất yên tâm.”</p><strong>— Minh Anh</strong></article>
-      <article class="review"><div class="stars">★★★★★</div><p>“Giá hợp lý, gọi là có xe khá nhanh. Mình thường xuyên dùng cho các chuyến đi trong tỉnh.”</p><strong>— Hoàng Nam</strong></article>
-      <article class="review"><div class="stars">★★★★★</div><p>“Dịch vụ ổn, tài xế lịch sự. Đặc biệt thích việc báo giá trước khi đi.”</p><strong>— Thu Hà</strong></article>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="faq">
-  <div class="container faq-wrap">
-    <div class="section-head"><div class="eyebrow">FAQ</div><h2>Câu hỏi <span>thường gặp.</span></h2></div>
-    <div class="faq">
-      <details><summary>Làm sao để đặt taxi?</summary><p>Chỉ cần gọi số 0964 849 095 và cung cấp điểm đón, điểm đến. Nhân viên sẽ hỗ trợ điều xe.</p></details>
-      <details><summary>Có nhận đặt xe trước không?</summary><p>Có. Bạn nên đặt trước nếu cần đi sân bay hoặc đi vào khung giờ cao điểm.</p></details>
-      <details><summary>Giá taxi được tính như thế nào?</summary><p>Giá phụ thuộc loại xe, quãng đường và loại hành trình. Hãy gọi để được báo giá cụ thể.</p></details>
-      <details><summary>Có phục vụ ban đêm không?</summary><p>Có. Dịch vụ hoạt động 24/7.</p></details>
-    </div>
-  </div>
-</section>
-
-<section class="cta">
-  <div class="container cta-inner">
-    <div><div class="eyebrow">CẦN XE NGAY?</div><h2>Gọi một cuộc.<br><span>Chúng tôi lo phần còn lại.</span></h2></div>
-    <a class="btn btn-primary btn-large" href="tel:+84964849095">☎ 0964 849 095</a>
-  </div>
-</section>
-</main>
-
-<footer>
-  <div class="container footer-grid">
-    <div><a class="logo" href="#home"><span class="logo-mark">🚕</span><span>Taxi Xanh</span></a><p>Dịch vụ taxi chuyên nghiệp, phục vụ 24/7.</p></div>
-    <div><h4>Liên kết</h4><a href="#services">Dịch vụ</a><a href="#about">Giới thiệu</a><a href="#pricing">Bảng giá</a></div>
-    <div><h4>Liên hệ</h4><a href="tel:+84964849095">0964 849 095</a><span>Nam Định, Việt Nam</span></div>
-  </div>
-  <div class="copyright">© 2026 Taxi Xanh. All rights reserved.</div>
-</footer>
-
-<a class="floating-call" href="tel:+84964849095">☎</a>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>

@@ -1,26 +1,15 @@
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+const header = document.getElementById("header");
 
-const menuBtn = document.getElementById('menuBtn');
-const mainNav = document.getElementById('mainNav');
-
-menuBtn.addEventListener('click', () => {
-  mainNav.classList.toggle('open');
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("open");
 });
 
-document.querySelectorAll('#mainNav a').forEach(link => {
-  link.addEventListener('click', () => mainNav.classList.remove('open'));
+document.querySelectorAll(".nav-links a").forEach((link) => {
+  link.addEventListener("click", () => navLinks.classList.remove("open"));
 });
 
-document.querySelectorAll('a[href^="#"]').forEach(link => {
-  link.addEventListener('click', (e) => {
-    const target = document.querySelector(link.getAttribute('href'));
-    if (target) {
-      e.preventDefault();
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  });
-});
-
-const header = document.querySelector('.site-header');
-window.addEventListener('scroll', () => {
-  header.classList.toggle('scrolled', window.scrollY > 20);
+window.addEventListener("scroll", () => {
+  header.classList.toggle("scrolled", window.scrollY > 10);
 });
